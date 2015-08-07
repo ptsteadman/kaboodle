@@ -15,13 +15,15 @@ window._kreatives.push({"title": "Why 'Who Is This?' Is Literally The Most Insul
 window._kreatives.push({"title": "The Six Worst Types of Coworkers: And How To Deal With Them", "creative":  "/creatives/coworker.jpg", "href": "http://elitedaily.com"});
 
 document.write("<div class='kaboodle-module'>");
-document.write("<a href='https://github.com/ptsteadman/kaboodle'>Sponsored Links From Kaboodle</a>");
+document.write("<a class='kaboodle-header' href='https://github.com/ptsteadman/kaboodle'>Sponsored Links By Kaboodle</a>");
 for(var i = 0; i < 6; i++){
   var creative = window._kreatives[i];
+  document.write("<a href='" + creative["href"] + "'>");
   document.write("<div class='kaboodle-item'>");
   document.write("<img src='" + kaboodleRoot + creative["creative"] + "'/>");
   document.write("<p>" + creative["title"] + "</p>");
   document.write("</div>");
+  document.write("</a>");
 }
 
 document.write("<br>");
