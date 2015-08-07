@@ -1,0 +1,34 @@
+.kaboodle-module {
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kaboodle-module a {
+   float: right;
+   text-align: right;
+   margin-bottom: 10px;
+   padding-right: 4px;
+   background-color: #333;
+   font-size: 14px;
+   width: 100%;
+   color: white;
+}
+
+.kaboodle-item {
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  margin: 5px 6px;
+}
+
+.kaboodle-item p {
+  height: 60px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.kaboodle-item:hover {
+  cursor: pointer;
+}
