@@ -1,6 +1,23 @@
 (function(window, undefined){
-/* Options */
+  /* Options */
 
+  var creatives = [
+    {"title": "Is Donald Trump The Best Candidate for 2016?  Vote Here.", "creative":  "/creatives/trump.jpg", "href": "http://newsmax.com"},
+    {"title": "These Photos From The Past Are Bitter Sweet", "creative":  "/creatives/rifle.jpg", "href": "http://buzzlamp.com"},
+    {"title": "Most Satisfied People Don't Wait For What They Want, They Go Get It", "creative":  "/creatives/satisfied.jpg", "href": "http://elitedaily.com/life/satisfied-people-dont-wait-want-go-get"},
+    {"title": "10 Tips To Learn Any Language From The Genius Who Speaks 9", "creative":  "/creatives/genius.jpg", "href": "http://elitedaily.com/life/satisfied-people-dont-wait-want-go-get"},
+    {"title": "A Lioness Captures A Baby Baboon And Does The LAST Thing You'd Expect", "creative":  "/creatives/lioness.jpg", "href": "http://www.littlebudha.com/baby-baboon-lion-mother"},
+    {"title": "Why 'Who Is This?' Is Literally The Most Insulting Test Ever (Video)", "creative":  "/creatives/whois.jpg", "href": "http://elitedaily.com/humor/who-is-this-text-most-insulting-text-video/"},
+    {"title": "The Six Worst Types of Coworkers: And How To Deal With Them", "creative":  "/creatives/coworker.jpg", "href": "http://elitedaily.com"},
+    {"title": "4 in 5 Americans Are Ignoring Buffet's Warning", "creative":  "/creatives/buffet.jpg", "href": "http://www.fool.com/video-alert/stock-advisor/sa-nightmare-gfx/"},
+    {"title": "Warren Buffet Just Gave Americans A Big Warning", "creative":  "/creatives/buffet.jpg", "href": "http://www.fool.com/video-alert/stock-advisor/sa-nightmare-gfx/"},
+    {"title": "Americans Urged To Search Their Name On New Site", "creative":  "/creatives/american.jpg", "href": "http://www.instantcheckmate.com/"},
+    {"title": "The Most Addicted Shopping Site For Women", "creative":  "/creatives/addicted.jpg", "href": "http://tophatter.com/blog"},
+    {"title": "Power Companies Fear This Chicago Family", "creative":  "/creatives/solar.jpg", "href": "http://www.thedailylife.com/new-policy-makes-power-companies-shocked-and-furious"},
+    {"title": "Six Reasons Your Wifi Is Your Most Important Relationship", "creative":  "/creatives/wif.jpg", "href": "http://elitedaily.com/life/culture/6-reasons-wifi-connection-important-relationship/"},
+    {"title": "7 Overhyped Games That Ended Up Being Terrible", "creative":  "/creatives/terrible.jpg", "href": "http://www.looper.com/2323/hyped-games-ended-terrible/"},
+    {"title": "Games That Punish You Seriously For Dying", "creative": "/creatives/dying.jpg", "href": "http://www.looper.com/2117/games-seriously-punish-dying"},
+  ];
 
   /* most recently parsed script */
   var scripts = document.getElementsByTagName("script");
@@ -15,22 +32,6 @@
   document.head.appendChild(kaboodleStyle);
 
   var numRows = kaboodleTag.dataset.numRows || 2;
-  var creatives = [];
-  creatives.push({"title": "Is Donald Trump The Best Candidate for 2016?  Vote Here.", "creative":  "/creatives/trump.jpg", "href": "http://newsmax.com"});
-  creatives.push({"title": "These Photos From The Past Are Bitter Sweet", "creative":  "/creatives/rifle.jpg", "href": "http://buzzlamp.com"});
-  creatives.push({"title": "Most Satisfied People Don't Wait For What They Want, They Go Get It", "creative":  "/creatives/satisfied.jpg", "href": "http://elitedaily.com/life/satisfied-people-dont-wait-want-go-get"});
-  creatives.push({"title": "10 Tips To Learn Any Language From The Genius Who Speaks 9", "creative":  "/creatives/genius.jpg", "href": "http://elitedaily.com/life/satisfied-people-dont-wait-want-go-get"});
-  creatives.push({"title": "A Lioness Captures A Baby Baboon And Does The LAST Thing You'd Expect", "creative":  "/creatives/lioness.jpg", "href": "http://www.littlebudha.com/baby-baboon-lion-mother"});
-  creatives.push({"title": "Why 'Who Is This?' Is Literally The Most Insulting Test Ever (Video)", "creative":  "/creatives/whois.jpg", "href": "http://elitedaily.com/humor/who-is-this-text-most-insulting-text-video/"});
-  creatives.push({"title": "The Six Worst Types of Coworkers: And How To Deal With Them", "creative":  "/creatives/coworker.jpg", "href": "http://elitedaily.com"});
-  creatives.push({"title": "4 in 5 Americans Are Ignoring Buffet's Warning", "creative":  "/creatives/buffet.jpg", "href": "http://www.fool.com/video-alert/stock-advisor/sa-nightmare-gfx/"});
-  creatives.push({"title": "Warren Buffet Just Gave Americans A Big Warning", "creative":  "/creatives/buffet.jpg", "href": "http://www.fool.com/video-alert/stock-advisor/sa-nightmare-gfx/"});
-  creatives.push({"title": "Americans Urged To Search Their Name On New Site", "creative":  "/creatives/american.jpg", "href": "http://www.instantcheckmate.com/"});
-  creatives.push({"title": "The Most Addicted Shopping Site For Women", "creative":  "/creatives/addicted.jpg", "href": "http://tophatter.com/blog"});
-  creatives.push({"title": "Power Companies Fear This Chicago Family", "creative":  "/creatives/solar.jpg", "href": "http://www.thedailylife.com/new-policy-makes-power-companies-shocked-and-furious"});
-  creatives.push({"title": "Six Reasons Your Wifi Is Your Most Important Relationship", "creative":  "/creatives/wif.jpg", "href": "http://elitedaily.com/life/culture/6-reasons-wifi-connection-important-relationship/"});
-  creatives.push({"title": "7 Overhyped Games That Ended Up Being Terrible", "creative":  "/creatives/terrible.jpg", "href": "http://www.looper.com/2323/hyped-games-ended-terrible/"});
-  creatives.push({"title": "Games That Punish You Seriously For Dying", "creative":  "/creatives/terrible.jpg", "href": "http://www.looper.com/2117/games-seriously-punish-dying"});
 
   var kaboodleModule = document.createElement("div");
   kaboodleModule.className = "kaboodle-module";
