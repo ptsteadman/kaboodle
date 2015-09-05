@@ -10,6 +10,12 @@ Insert the following script tag into the place where you want ads:
 
 Ad creatives will be injected directly to your DOM, for free, without any pesky trackers!
 
+### Join Kaboodle
+If you have a weird or interesting website, create a pull request containing
+the ad creative (approx. 210px x 176px), the clickthrough URL, and the 
+caption.  As long as it's weird enough and seems legit, it'll be added 
+to the CDN.
+
 ### Options
 Kaboodle will automatically adjust the number of creatives displayed based on the width
 of the parent element.  By setting the `data-num-rows` attribute of the kaboodle script tag,
