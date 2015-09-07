@@ -1,6 +1,12 @@
 # kaboodle
 Put fake ads on your site to make it look legit.
 
+*Before:*
+![Before.](https://github.com/ptsteadman/kaboodle/blob/master/before.png?raw=true)
+
+*After:*
+![After.](https://github.com/ptsteadman/kaboodle/blob/master/after.png?raw=true)
+
 ### Installation
 Insert the following script tag into the place where you want ads:
 
