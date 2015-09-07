@@ -1,10 +1,10 @@
 # kaboodle
 Put fake ads on your site to make it look legit.
 
-*Before:*
+__Before:__
 ![Before.](https://github.com/ptsteadman/kaboodle/blob/master/before.png?raw=true)
 
-*After:*
+__After:__
 ![After.](https://github.com/ptsteadman/kaboodle/blob/master/after.png?raw=true)
 
 ### Installation
