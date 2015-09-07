@@ -19,7 +19,12 @@
     {"title": "Games That Punish You Seriously For Dying", "creative": "/creatives/dying.jpg", "href": "http://www.looper.com/2117/games-seriously-punish-dying"},
     {"title": "Find Out How This Shitty Dude Met A Girl", "creative": "/creatives/shittydudemale.jpg", "href": "http://www.shittydudefinder.com/?utm_source=kaboodle&utm_medium=referral&utm_content=male"},
     {"title": "But She Likes It...10 Women Who Dig Shitty Dudes", "creative": "/creatives/shittydudefemale.jpg", "href": "http://www.shittydudefinder.com/?utm_source=kaboodle&utm_medium=referral&utm_content=female"},
-    {"title": "5 Weiner Dogs Compete In Adorable Water Race", "creative": "/creatives/weinerrace.jpg", "href": "http://www.littlebudha.com/dachshund-500-water-race/"}
+    {"title": "5 Weiner Dogs Compete In Adorable Water Race", "creative": "/creatives/weinerrace.jpg", "href": "http://www.littlebudha.com/dachshund-500-water-race/"},
+    {"title": "Healthy Morning Drinks to Start Your Day Off", "creative": "/creatives/morningdrinks.png", "href": "http://epphany.com/site/post/577/"},
+    {"title": "Best Ways to Scare Your Girlfriend", "creative": "/creatives/scaregirlfriend.png", "href": "http://epphany.com/site/post/116/"},
+    {"title": "Movies That Ruined the Book", "creative": "/creatives/booksmovies.png.png", "href": "http://epphany.com/site/post/3"}
+
+    http://epphany.com/site/post/3
 
   ];
 
