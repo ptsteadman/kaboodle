@@ -22,6 +22,8 @@ of the parent element.  By setting the `data-num-rows` attribute of the kaboodle
 you can control the number of rows of creatives kaboodle will display.  By default, the number 
 of rows is 2.
 
-	<script data-num-rows="2" src="https://s3-us-west-2.amazonaws.com/kaboodle/kaboodle.js" type="text/javascript"></script>
+```html
+<script data-num-rows="2" src="https://s3-us-west-2.amazonaws.com/kaboodle/kaboodle.js" type="text/javascript"></script>
+```
 
 More options soon.
