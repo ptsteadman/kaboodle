@@ -35,4 +35,4 @@ of rows is 2.
 More options soon.
 
 ### About/License
-Created for ![Best Stories Online](http://beststoriesonline.com).  MIT License.
+Created for [Best Stories Online](http://beststoriesonline.com).  MIT License.
