@@ -24,6 +24,10 @@
     {"title": "Best Ways to Scare Your Girlfriend", "creative": "/creatives/scaregirlfriend.png", "href": "http://epphany.com/site/post/116/"},
     {"title": "Movies That Ruined the Book", "creative": "/creatives/booksmovies.png", "href": "http://epphany.com/site/post/3"},
     {"title": "The 10 Most Disturbing Pokemon Facts", "creative": "/creatives/pokemon-facts.png", "href": "http://gamerant.com/pokemon-disturbing-facts"}
+    {"title": "How To Impress Employers at Info Sessions", "creative": "/creatives/infosessions.png", "href": "http://ptsteadman.github.io/How-To-Impress/"},
+    {"title": "So You Want to Date an Artist", "creative": "/creatives/saveartist.png", "href": "http://blog.newhive.com/so-u-want-to-date-an-artist/"},
+    {"title": "Weight-lifting Kangaroo has Neighborhod on High Alert", "creative": "/creatives/buffkang.png", "href": "http://www.theweathernetwork.com/us/news/articles/animals/massive-super-buff-kangaroo-muscles-in-on-neighbourhood/51634/"},
+    {"title": "Are Lentils a Low-Calorie Food?", "creative": "/creatives/lents.png", "href": "http://healthyeating.sfgate.com/lentils-lowcalorie-food-1034.html"}
   ];
 
   /* most recently parsed script */
