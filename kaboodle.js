@@ -26,8 +26,11 @@
     {"title": "The 10 Most Disturbing Pokemon Facts", "creative": "/creatives/pokemon-facts.png", "href": "http://gamerant.com/pokemon-disturbing-facts"},
     {"title": "How To Impress Employers at Info Sessions", "creative": "/creatives/infosessions.png", "href": "http://ptsteadman.github.io/How-To-Impress/"},
     {"title": "So You Want to Date an Artist", "creative": "/creatives/saveartist.png", "href": "http://blog.newhive.com/so-u-want-to-date-an-artist/"},
+    {"title": "So You Want to Date an Artist", "creative": "/creatives/saveartist.png", "href": "http://blog.newhive.com/so-u-want-to-date-an-artist/"},
     {"title": "Weight-lifting Kangaroo has Neighborhod on High Alert", "creative": "/creatives/buffkang.png", "href": "http://www.theweathernetwork.com/us/news/articles/animals/massive-super-buff-kangaroo-muscles-in-on-neighbourhood/51634/"},
-    {"title": "Are Lentils a Low-Calorie Food?", "creative": "/creatives/lents.png", "href": "http://healthyeating.sfgate.com/lentils-lowcalorie-food-1034.html"}
+    {"title": "Are Lentils a Low-Calorie Food?", "creative": "/creatives/lents.png", "href": "http://healthyeating.sfgate.com/lentils-lowcalorie-food-1034.html"},
+    {"title": "10 Small Dogs and What They're Like", "creative": "/creatives/pug.jpg", "href": "http://www.sheknows.com/pets-and-animals/articles/808128/top-10-small-breed-dogs"},
+    {"title": "15 Hot Female Athletes Who Are Only Famous For Their Looks", "creative": "/creatives/fathletes.jpg", "href": "http://www.rantsports.com/clubhouse/2014/04/04/15-hot-female-athletes-who-are-only-famous-for-their-looks"}
   ];
 
   /* most recently parsed script */
@@ -94,8 +97,8 @@
   loadItems();
 
   function randomize(creatives){
-    for(var i = 0; i < creatives.length; i++){
-      var swapIndex = getRandomInt(0, creatives.length);
+    for(var i = creatives.length - 1; i > 0; i--){
+      var swapIndex = getRandomInt(0, i + 1);
       var tmp = creatives[swapIndex];
       creatives[swapIndex] = creatives[i];
       creatives[i] = tmp;
