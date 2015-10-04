@@ -79,6 +79,16 @@
       var creative = creatives[i % creatives.length];
       var kaboodleItemLink = document.createElement("a");
       kaboodleItemLink.href = creative["href"]; 
+      kaboodleItemLink.onclick = function(){
+	if(ga){
+	  ga('send', 'event', 
+	  'kaboodleAd', 'click', creative["href"], {'hitCallback':
+	     function () {
+	     document.location = creative["href"];
+	     }
+	  });
+	}
+      };
       kaboodleItems.appendChild(kaboodleItemLink);
       var kaboodleItemWrapper = document.createElement("div");
       kaboodleItemWrapper.className = "kaboodle-item"; 
@@ -108,5 +118,6 @@
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
   }
+
 
 })(window);
