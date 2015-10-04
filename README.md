@@ -40,8 +40,7 @@ More options soon.
 ###Analytics
 
 If you have Google Analytics, kaboodle will automatically send tracking events
-when users click on kaboodle 'ads'.  These events can be viewed in the `Behavior
-> Events > Overview` section of GA.
+when users click on kaboodle 'ads'.  These events can be viewed in the `Behavior > Events > Overview` section of GA.
 
 ### About/License
 Created for [Best Stories Online](http://beststoriesonline.com).  MIT License.
