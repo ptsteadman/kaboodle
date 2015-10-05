@@ -41,6 +41,7 @@ More options soon.
 
 If you have Google Analytics, kaboodle will automatically send tracking events
 when users click on kaboodle 'ads'.  These events can be viewed in the `Behavior > Events > Overview` section of GA.
+You could adapt this to run a DIY ad server.
 
 ### About/License
 Created for [Best Stories Online](http://beststoriesonline.com).  MIT License.
